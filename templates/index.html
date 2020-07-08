@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>COVID19 Probability Detector</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">COVID19 Contract Probability Predictor</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">By Raksha Kannusami</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    
+
+    <div class="container">
+        <h2 class="text-center mt-3">COVID19 Contract Probability Predictor</center></h2>
+
+    
+
+    <form action="/" method="POST">
+        <div class="form-group">
+            <label for="fever">Fever</label>
+            <input type="text" class="form-control" id="fever" name="fever" placeholder="Enter Fever Value">
+        </div>
+
+        <div class="form-group">
+            <label for="age">Age</label>
+            <input type="text" class="form-control" id="age" name="age" placeholder="Enter your Age">
+        </div>
+
+        
+        
+        <div class="form-group">
+            <label for="bodypain">Intensity of tiredness & bodypain</label>
+            <select class="form-control custom-select" name="bodypain" id="bodypain">
+                <option value="0">No pain</option>
+                <option value="1">Severe pain</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="cough">Do you have dry cough?</label>
+            <select class="form-control custom-select" name="cough" id="cough">
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="diffbreathing">Do you have difficulty breathing?</label>
+            <select class="form-control custom-select" name="diffbreathing" id="diffbreathing">
+                <option value="-1">No difficulty</option>
+                <option value="0">Little difficulty</option>
+                <option value="1">Severe difficulty</option>
+            </select>
+        </div>
+
+        <button class="btn btn-primary" >submit</button>
+        
+        </div>
+    </form>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
